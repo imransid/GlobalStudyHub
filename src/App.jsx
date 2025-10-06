@@ -1,13 +1,4 @@
 import React, { useState } from "react";
-import { motion } from "framer-motion";
-import {
-  GraduationCap,
-  Globe2,
-  CheckCircle,
-  Send,
-  Menu,
-  X,
-} from "lucide-react";
 import VisaSection from "./components/VisaSucessStory";
 import OurPartnerUniversities from "./components/OurPartnerUniversities";
 import Navbar from "./components/AppHeader";
