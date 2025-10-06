@@ -90,7 +90,7 @@ export default function HeroSection() {
         <h1 className="text-4xl md:text-5xl font-extrabold leading-tight max-w-3xl drop-shadow-lg relative group">
           Your trusted pathway to{" "}
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-teal-400 to-green-400 animate-textGlow relative inline-block">
-            top universities in Malaysia
+            Top Universities in Malaysia
           </span>
         </h1>
 
