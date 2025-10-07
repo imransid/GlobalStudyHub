@@ -1,37 +1,36 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-
+import APU from "../assets/apu.jpg";
+import IUKL from "../assets/iukl.jpeg";
+import Cyberjaya from "../assets/Cyberjaya.webp";
+import Taylor from "../assets/Taylors-University-Malaysia.jpg";
+import sunway from "../assets/sunway-university.webp";
 export default function OurPartnerUniversities() {
   const stories = [
     {
-      image:
-        "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=1000&q=80",
-      title: "🎓 Malaysia Visa Approved",
-      name: "Ferdous Jannatul",
+      image: APU,
+      title: "🇲🇾 Asia Pacific University of Technology",
+      name: "APU",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1595152772835-219674b2a8a6?auto=format&fit=crop&w=1000&q=80",
-      title: "🇬🇧 UK Study Visa Success",
-      name: "Mehedi Hasan",
+      image: Cyberjaya,
+      title: "🇲🇾 University of Cyberjaya (UoC)",
+      name: "University of Cyberjaya (UoC)",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1603415526960-f7e0328d88b3?auto=format&fit=crop&w=1000&q=80",
-      title: "🇨🇦 Canada Student Visa Granted",
-      name: "Sadia Noor",
+      image: IUKL,
+      title: "🇲🇾 Kuala Lumpur University of Science and Technology",
+      name: "IUKL",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1590080875831-91a9f7f3a8c9?auto=format&fit=crop&w=1000&q=80",
-      title: "🇦🇺 Australia Study Visa",
-      name: "Rafiq Ahmed",
+      image: Taylor,
+      title: "🇲🇾 Taylors University Malaysia",
+      name: "Taylors-University-Malaysia",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=80",
-      title: "🇲🇾 Malaysia Visa Approved",
-      name: "Tania Rahman",
+      image: sunway,
+      title: "🇲🇾 SUNWAY University",
+      name: "SUNWAY University",
     },
   ];
 
